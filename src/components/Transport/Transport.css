@@ -1,0 +1,104 @@
+.dashBoard form, .submittedInfo{
+    width: 95%  !important;
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.dashBoard form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.dashBoard label{
+    margin-top: 5px;
+   
+}
+
+.inputSubmit{
+    background-color: tomato;
+}
+
+.submittedInfo div{
+    background-color: tomato;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dashBoard{
+    width: 40%;
+    display: inline-block;
+} 
+
+.googleMap{
+    width: 50%;
+    height: 70vh;
+    display: inline-block;
+    float: right;
+}
+
+.containerMap{
+    width: 95%;
+    margin:50px auto;
+}
+
+
+@media(max-width:780px) 
+{
+    .containerMap {
+        width: 90%;
+    }
+
+    .googleMap, .dashBoard{
+        display: block;
+        float: none;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+@media(max-width:428px) 
+{
+    .containerMap {
+        width: 100%;
+    }
+
+    .googleMap, .dashBoard{
+        display: block;
+        float: none;
+        width: 95%;
+        margin: auto;
+    }
+
+    .dashBoard form, .submittedInfo{
+        width: 95%  !important;
+        background-color: rgba(255, 255, 255, 0.616);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px auto;
+    }
+}
+
+@media(max-width:428px) 
+{
+    .dashBoard{
+        display: block;
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+
+    .submittedInfo div{
+        padding: 5px;
+    }
+}
+

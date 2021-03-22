@@ -1,0 +1,44 @@
+.vehicleInfo{
+    /* background-color: white !important; */
+    margin-top: 10px;
+}
+table{
+    width: 100%;
+}
+
+table span{
+    font-weight: bold;
+    font-size: 20px;
+}
+table svg{
+    height: 20px !important;
+}
+
+.SearchAgain,.SearchAgain2{
+    padding: 10px 15px;
+    background-color: tomato;
+    color: black;
+    border-radius: 5px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+.SearchAgain2{
+    float: right;
+}
+
+@media(max-width:305px){
+    table span{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    table svg{
+        height: 15px !important;
+    }
+}
+
+@media(max-width:305px){
+    .SearchAgain,.SearchAgain2{
+        display: block;
+        float: none;
+    }
+}

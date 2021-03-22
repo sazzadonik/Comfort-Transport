@@ -1,0 +1,21 @@
+.successImage{
+    display: block;
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 300px;
+
+}
+
+.successDiv h1,.successDiv p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.successDiv{
+    margin-top: 50px;
+}

@@ -1,0 +1,34 @@
+[
+	{
+		"id": 1,
+		"title": "Bike",
+		"image": "https://png.vector.me/files/images/3/4/343891/royal_motorcycle_preview",
+		"capacity": 1,
+		"price": 5,
+		"priceRange": "/km"
+	},
+	{
+		"id": 2,
+		"title": "Car",
+		"image": "https://cdn.pixabay.com/photo/2014/04/03/00/34/luxury-car-308716__340.png",
+		"capacity": 3,
+		"price": 10,
+		"priceRange": "/km"
+	},
+	{
+		"id": 3,
+		"title": "Car Plus",
+		"image": "https://webstockreview.net/images/jeep-clipart-stiles-2.png",
+		"capacity": 4,
+		"price": 15,
+		"priceRange": "/km"
+	},
+	{
+		"id": 4,
+		"title": "Train",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Train_Icon_2.png",
+		"capacity": 1,
+		"price": 8,
+		"priceRange": "/km"
+	}
+]

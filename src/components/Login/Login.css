@@ -1,0 +1,112 @@
+.LoginContainer{
+   padding-bottom: 20px;
+   border-radius: 5px;
+}
+
+.LogInGoogle button, .LogInGoogle button:active {
+    max-width: 400px;
+    width: 35%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin: 20px auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+button img{
+    float: left;
+}
+
+button p{
+    margin: 0;
+    float: right;
+    margin-right: 50px;
+    margin-top: 2px;
+}
+
+.devider{
+    width: 30%;
+    margin: 20px auto;
+}
+.devider div{
+    width: 45%;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+
+strong{
+    margin: 0px 5px;
+}
+
+.validationError {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+
+@media(max-width:900px) 
+{
+    
+    .devider{
+        width: 45%;
+    }
+}
+
+
+
+
+@media(max-width:600px) 
+{
+    .LogInGoogle button{
+        
+    /* max-width: 90%; */
+    width: 90%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin: 20px auto;
+    display: block;
+    }
+
+    .devider{
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+
+@media(max-width:333px) 
+{
+    .devider{
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .devider div{
+        width: 42%;
+       
+    }
+}
+
+
+@media(max-width:240px) 
+{
+    .LogInGoogle button{
+        width: 95%;
+    }
+
+    button p{
+     
+        margin-right: 20px;
+       
+    }
+}
+
+
+.LoginUpLink{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
